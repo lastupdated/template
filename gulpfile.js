@@ -12,7 +12,7 @@ gulp.task('html', function() {
 gulp.task('watch', function() {
 
 	watch('./index.html', function() {
-		gulp.start("Lorem Ipsum");
+		gulp.start('html');
 	});
 
 	watch('./index.html', function() {
